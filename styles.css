@@ -1,0 +1,26 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rosybrown;
+}
+th, td {
+    padding: 5px 10px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+th {
+    background-color: rosybrown;
+}
+tr {
+    background-color: silver;
+}
+td:hover,th:hover {
+    background-color: beige;
+}
+tr:nth-child(3) {
+    color: salmon;
+}
